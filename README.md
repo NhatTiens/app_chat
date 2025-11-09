@@ -45,13 +45,13 @@ Phục vụ bài tập lớn **CO3093/CO3094 – HCMUT**.
 
 ### Backend
 ```
-python start_backend.py --server-ip 0.0.0.0 --server-port 9000
+python start_backend.py
 ```
 Truy cập `http://localhost:9000/login.html`
 
 ### ChatApp Server
 ```
-python start_chatapp.py --server-ip 0.0.0.0 --server-port 8001
+python start_chatapp.py
 ```
 
 ### P2P Peers
@@ -94,34 +94,5 @@ python start_p2p.py --peer-id long --listen-port 5000
 2. **Task 2 (CS)** – Gửi thông tin peer, lấy danh sách, broadcast, gửi tin
 3. **Task 2 (P2P)** – Kết nối và gửi tin nhắn giữa 2 peer
 
----
 
-## 7) Ghi chú báo cáo
 
-Ảnh minh họa lưu tại `Images/`
-
-```
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=0.9\linewidth]{Images/login_cookie.png}
-  \caption{Đăng nhập thành công}
-\end{figure}
-```
-
----
-
-## 8) Bản quyền
-
-```
-Copyright (C) 2025 pdnguyen
-WeApRous release – For educational use only (CO3093/CO3094)
-```
-
----
-
-## 9) Tác giả
-
-- Sinh viên: Bùi Nguyễn Nhật Tiến
-- MSSV: 2213444
-- Trường: Đại học Bách Khoa – ĐHQG TP.HCM (HCMUT)
-- Khoa: Kỹ thuật Máy tính (CSE)
